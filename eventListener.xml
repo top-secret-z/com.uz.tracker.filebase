@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<!-- Filebase -->
-		<eventlistener name="trackerFile">
-			<eventclassname>filebase\data\file\FileAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>user</environment>
-			<listenerclassname>filebase\system\event\listener\TrackerFilebaseListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="trackerFileVersion">
-			<eventclassname>filebase\data\file\version\FileVersionAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>user</environment>
-			<listenerclassname>filebase\system\event\listener\TrackerFilebaseVersionListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="trackerFileDownload">
-			<eventclassname>filebase\page\DownloadPage</eventclassname>
-			<eventname>show</eventname>
-			<environment>user</environment>
-			<listenerclassname>filebase\system\event\listener\TrackerFilebaseDownloadListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="trackerFilePurchase">
-			<eventclassname>filebase\page\PurchasePage</eventclassname>
-			<eventname>show</eventname>
-			<environment>user</environment>
-			<listenerclassname>filebase\system\event\listener\TrackerFilebasePurchaseListener</listenerclassname>
-		</eventlistener>
-	</import>
+    <import>
+        <!-- Filebase -->
+        <eventlistener name="trackerFile">
+            <eventclassname>filebase\data\file\FileAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>user</environment>
+            <listenerclassname>filebase\system\event\listener\TrackerFilebaseListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="trackerFileVersion">
+            <eventclassname>filebase\data\file\version\FileVersionAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>user</environment>
+            <listenerclassname>filebase\system\event\listener\TrackerFilebaseVersionListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="trackerFileDownload">
+            <eventclassname>filebase\page\DownloadPage</eventclassname>
+            <eventname>show</eventname>
+            <environment>user</environment>
+            <listenerclassname>filebase\system\event\listener\TrackerFilebaseDownloadListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="trackerFilePurchase">
+            <eventclassname>filebase\page\PurchasePage</eventclassname>
+            <eventname>show</eventname>
+            <environment>user</environment>
+            <listenerclassname>filebase\system\event\listener\TrackerFilebasePurchaseListener</listenerclassname>
+        </eventlistener>
+    </import>
 </data>
