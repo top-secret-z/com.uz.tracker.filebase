@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wcf.uztracker">
-		<item name="wcf.uztracker.config.wlfilFile"><![CDATA[File]]></item>
-		<item name="wcf.uztracker.config.wlfilFileDownload"><![CDATA[Download]]></item>
-		<item name="wcf.uztracker.config.wlfilFilePurchase"><![CDATA[Purchase]]></item>
-		<item name="wcf.uztracker.config.wlfilFileVersion"><![CDATA[Version]]></item>
-		<item name="wcf.uztracker.header.type.wlfil"><![CDATA[Filebase]]></item>
-		<item name="wcf.uztracker.type.wlfil"><![CDATA[Filebase]]></item>
-		
-		<item name="wcf.uztracker.description.filebase.add"><![CDATA[File created]]></item>
-		<item name="wcf.uztracker.description.filebase.addDisabled"><![CDATA[File created (disabled)]]></item>
-		<item name="wcf.uztracker.description.filebase.delete"><![CDATA[File permanently deleted]]></item>
-		<item name="wcf.uztracker.description.filebase.disable"><![CDATA[File disabled]]></item>
-		<item name="wcf.uztracker.description.filebase.enable"><![CDATA[File enabled]]></item>
-		<item name="wcf.uztracker.description.filebase.restore"><![CDATA[File restored]]></item>
-		<item name="wcf.uztracker.description.filebase.review"><![CDATA[Review created/deleted]]></item>
-		<item name="wcf.uztracker.description.filebase.setAsFeatured"><![CDATA[File set featured]]></item>
-		<item name="wcf.uztracker.description.filebase.trash"><![CDATA[File deleted (trash bin)]]></item>
-		<item name="wcf.uztracker.description.filebase.unsetAsFeatured"><![CDATA[File unset featured]]></item>
-		<item name="wcf.uztracker.description.filebase.update"><![CDATA[File edited]]></item>
-		
-		<item name="wcf.uztracker.description.filebase.download"><![CDATA[File downloaded]]></item>
-		<item name="wcf.uztracker.description.filebase.download.commercial"><![CDATA[File downloaded (commercial)]]></item>
-		<item name="wcf.uztracker.description.filebase.purchase"><![CDATA[File purchase initiated]]></item>
-		<item name="wcf.uztracker.description.filebase.version.add"><![CDATA[Version created]]></item>
-		<item name="wcf.uztracker.description.filebase.version.addDisabled"><![CDATA[Version created (disabled)]]></item>
-		<item name="wcf.uztracker.description.filebase.version.delete"><![CDATA[Version permanently deleted]]></item>
-		<item name="wcf.uztracker.description.filebase.version.disable"><![CDATA[Version disabled]]></item>
-		<item name="wcf.uztracker.description.filebase.version.enable"><![CDATA[Version enabled]]></item>
-		<item name="wcf.uztracker.description.filebase.version.restore"><![CDATA[Version restored]]></item>
-		<item name="wcf.uztracker.description.filebase.version.trash"><![CDATA[Version deleted (trash bin)]]></item>
-		<item name="wcf.uztracker.description.filebase.version.update"><![CDATA[Version edited]]></item>
-		
-		<item name="wcf.uztracker.page.categoryFileList"><![CDATA[File category]]></item>
-		<item name="wcf.uztracker.page.download"><![CDATA[File download]]></item>
-		<item name="wcf.uztracker.page.file"><![CDATA[File]]></item>
-		<item name="wcf.uztracker.page.rssFeedCategoryFile"><![CDATA[RSS File category]]></item>
-		<item name="wcf.uztracker.page.rssFeedFile"><![CDATA[RSS File]]></item>
-		
-	</category>
+    <category name="wcf.uztracker">
+        <item name="wcf.uztracker.config.wlfilFile"><![CDATA[File]]></item>
+        <item name="wcf.uztracker.config.wlfilFileDownload"><![CDATA[Download]]></item>
+        <item name="wcf.uztracker.config.wlfilFilePurchase"><![CDATA[Purchase]]></item>
+        <item name="wcf.uztracker.config.wlfilFileVersion"><![CDATA[Version]]></item>
+        <item name="wcf.uztracker.header.type.wlfil"><![CDATA[Filebase]]></item>
+        <item name="wcf.uztracker.type.wlfil"><![CDATA[Filebase]]></item>
+
+        <item name="wcf.uztracker.description.filebase.add"><![CDATA[File created]]></item>
+        <item name="wcf.uztracker.description.filebase.addDisabled"><![CDATA[File created (disabled)]]></item>
+        <item name="wcf.uztracker.description.filebase.delete"><![CDATA[File permanently deleted]]></item>
+        <item name="wcf.uztracker.description.filebase.disable"><![CDATA[File disabled]]></item>
+        <item name="wcf.uztracker.description.filebase.enable"><![CDATA[File enabled]]></item>
+        <item name="wcf.uztracker.description.filebase.restore"><![CDATA[File restored]]></item>
+        <item name="wcf.uztracker.description.filebase.review"><![CDATA[Review created/deleted]]></item>
+        <item name="wcf.uztracker.description.filebase.setAsFeatured"><![CDATA[File set featured]]></item>
+        <item name="wcf.uztracker.description.filebase.trash"><![CDATA[File deleted (trash bin)]]></item>
+        <item name="wcf.uztracker.description.filebase.unsetAsFeatured"><![CDATA[File unset featured]]></item>
+        <item name="wcf.uztracker.description.filebase.update"><![CDATA[File edited]]></item>
+
+        <item name="wcf.uztracker.description.filebase.download"><![CDATA[File downloaded]]></item>
+        <item name="wcf.uztracker.description.filebase.download.commercial"><![CDATA[File downloaded (commercial)]]></item>
+        <item name="wcf.uztracker.description.filebase.purchase"><![CDATA[File purchase initiated]]></item>
+        <item name="wcf.uztracker.description.filebase.version.add"><![CDATA[Version created]]></item>
+        <item name="wcf.uztracker.description.filebase.version.addDisabled"><![CDATA[Version created (disabled)]]></item>
+        <item name="wcf.uztracker.description.filebase.version.delete"><![CDATA[Version permanently deleted]]></item>
+        <item name="wcf.uztracker.description.filebase.version.disable"><![CDATA[Version disabled]]></item>
+        <item name="wcf.uztracker.description.filebase.version.enable"><![CDATA[Version enabled]]></item>
+        <item name="wcf.uztracker.description.filebase.version.restore"><![CDATA[Version restored]]></item>
+        <item name="wcf.uztracker.description.filebase.version.trash"><![CDATA[Version deleted (trash bin)]]></item>
+        <item name="wcf.uztracker.description.filebase.version.update"><![CDATA[Version edited]]></item>
+
+        <item name="wcf.uztracker.page.categoryFileList"><![CDATA[File category]]></item>
+        <item name="wcf.uztracker.page.download"><![CDATA[File download]]></item>
+        <item name="wcf.uztracker.page.file"><![CDATA[File]]></item>
+        <item name="wcf.uztracker.page.rssFeedCategoryFile"><![CDATA[RSS File category]]></item>
+        <item name="wcf.uztracker.page.rssFeedFile"><![CDATA[RSS File]]></item>
+
+    </category>
 </language>

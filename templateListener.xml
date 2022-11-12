@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templateListener.xsd">
-	<import>
-		<templatelistener name="userProfileTrackerFilebase">
-			<environment>user</environment>
-			<templatename>userProfileTracker</templatename>
-			<eventname>trackerFilterOption</eventname>
-			<templatecode><![CDATA[<option value="wlfil"{if $type == 'wlfil'} selected="selected"{/if}>{lang}wcf.uztracker.type.wlfil{/lang}</option>]]></templatecode>
-		</templatelistener>
-		<templatelistener name="trackerlogListFilebase">
-			<environment>user</environment>
-			<templatename>trackerLogList</templatename>
-			<eventname>trackerFilterOption</eventname>
-			<templatecode><![CDATA[<option value="wlfil"{if $type == 'wlfil'} selected="selected"{/if}>{lang}wcf.uztracker.type.wlfil{/lang}</option>]]></templatecode>
-		</templatelistener>
-		<templatelistener name="trackerlogBulkFilebase">
-			<environment>admin</environment>
-			<templatename>trackerLogBulkProcessing</templatename>
-			<eventname>trackerTypes</eventname>
-			<templatecode><![CDATA[<option value="wlfil"{if $type == 'wlfil'} selected="selected"{/if}>{lang}wcf.uztracker.type.wlfil{/lang}</option>]]></templatecode>
-		</templatelistener>
-	</import>
+    <import>
+        <templatelistener name="userProfileTrackerFilebase">
+            <environment>user</environment>
+            <templatename>userProfileTracker</templatename>
+            <eventname>trackerFilterOption</eventname>
+            <templatecode><![CDATA[<option value="wlfil"{if $type == 'wlfil'} selected="selected"{/if}>{lang}wcf.uztracker.type.wlfil{/lang}</option>]]></templatecode>
+        </templatelistener>
+        <templatelistener name="trackerlogListFilebase">
+            <environment>user</environment>
+            <templatename>trackerLogList</templatename>
+            <eventname>trackerFilterOption</eventname>
+            <templatecode><![CDATA[<option value="wlfil"{if $type == 'wlfil'} selected="selected"{/if}>{lang}wcf.uztracker.type.wlfil{/lang}</option>]]></templatecode>
+        </templatelistener>
+        <templatelistener name="trackerlogBulkFilebase">
+            <environment>admin</environment>
+            <templatename>trackerLogBulkProcessing</templatename>
+            <eventname>trackerTypes</eventname>
+            <templatecode><![CDATA[<option value="wlfil"{if $type == 'wlfil'} selected="selected"{/if}>{lang}wcf.uztracker.type.wlfil{/lang}</option>]]></templatecode>
+        </templatelistener>
+    </import>
 </data>
